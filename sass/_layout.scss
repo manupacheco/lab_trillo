@@ -51,7 +51,9 @@
   }
   
   &__user-reviews {
-    background-color: yellowgreen;
-    flex: 1
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
